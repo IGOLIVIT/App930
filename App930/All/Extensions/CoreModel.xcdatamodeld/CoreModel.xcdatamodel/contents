@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CalModel" representedClassName="CalModel" syncable="YES" codeGenerationType="class">
+        <attribute name="calClimbs" optional="YES" attributeType="String"/>
+        <attribute name="calCost" optional="YES" attributeType="String"/>
+        <attribute name="calDate" optional="YES" attributeType="String"/>
+        <attribute name="calEq" optional="YES" attributeType="String"/>
+        <attribute name="calLName" optional="YES" attributeType="String"/>
+        <attribute name="calLoc" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ContModel" representedClassName="ContModel" syncable="YES" codeGenerationType="class">
+        <attribute name="conClimbs" optional="YES" attributeType="String"/>
+        <attribute name="conCost" optional="YES" attributeType="String"/>
+        <attribute name="conDate" optional="YES" attributeType="String"/>
+        <attribute name="conLift" optional="YES" attributeType="String"/>
+        <attribute name="conLoc" optional="YES" attributeType="String"/>
+        <attribute name="conNote" optional="YES" attributeType="String"/>
+    </entity>
+</model>
